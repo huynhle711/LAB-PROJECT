@@ -1,0 +1,16 @@
+DROP TABLE order
+
+1	Join_RewardEarnPoints	JOIN
+2	Join_ItemIngredientUsage	JOIN
+3	OrderDetail	Child
+4	InventoryBatch	Child
+5	ShiftManagement	Child
+6	EmployeeWorkSchedule	Child
+7	RewardAccount	Child
+8	Order	Child / Parent
+9	MenuItems	Child / Parent
+10	Customer	Parent
+11	Employee	Parent
+12	Supplier	Parent
+13	Ingredients	Lookup / Parent
+14	MenuItemType	Lookup
